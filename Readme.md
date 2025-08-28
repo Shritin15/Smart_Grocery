@@ -1,6 +1,6 @@
 # SmartGrocery - Grocery Management System
 
-A JavaFX-based grocery management application that helps users track grocery items with expiry alerts and role-based access control.
+A JavaFX-based grocery management application that helps users track grocery items with expiry alerts and role based access control.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -11,8 +11,6 @@ A JavaFX-based grocery management application that helps users track grocery ite
 - [Database Schema](#database-schema)
 - [Project Structure](#project-structure)
 - [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [Authors](#authors)
 
 ## Overview
 
