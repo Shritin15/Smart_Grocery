@@ -16,13 +16,13 @@ A JavaFX-based grocery management application that helps users track grocery ite
 
 ## Overview
 
-SmartGrocery is a comprehensive grocery inventory management system designed to help users efficiently track their grocery items with automatic expiry date monitoring. Built with the Model-View-Controller (MVC) architecture, the application provides role-based access control and secure user authentication.
+SmartGrocery is a comprehensive grocery inventory management system designed to help users efficiently track their grocery items with automatic expiry date monitoring. Built with the Model View Controller (MVC) architecture, the application provides role based access control and secure user authentication.
 
 ### Key Highlights
 - **Expiry Alerts**: Automatic status calculation (Fresh, Expiring Soon, Expired)
 - **Role-Based Access**: Admin and User roles with different permissions
 - **Secure Authentication**: SHA-256 password hashing
-- **Real-time Updates**: Dynamic status and days-left calculations
+- **Real-time Updates**: Dynamic status and days left calculations
 - **User Management**: Admin capabilities for managing users and all items
 
 ## Features
@@ -40,7 +40,7 @@ SmartGrocery is a comprehensive grocery inventory management system designed to 
   - **Fresh**: More than 3 days until expiry
   - **Expiring Soon**: Within 3 days of expiry
   - **Expired**: Past expiry date
-- **Days Left Calculation**: Real-time countdown to expiry
+- **Days Left Calculation**: Real time countdown to expiry
 
 ### Admin Features
 - **View All Items**: Access to all users' grocery items
@@ -52,13 +52,13 @@ SmartGrocery is a comprehensive grocery inventory management system designed to 
 - **Item Management**: Add and edit your own items
 - **Expiry Notifications**: Visual alerts for item status
 
-## Technology Stack
+## Technology 
 
 - **Frontend**: JavaFX with custom CSS styling
 - **Backend**: Java with JDBC
 - **Database**: MySQL
 - **IDE**: Eclipse
-- **Architecture**: Model-View-Controller (MVC)
+- **Architecture**: Model View Controller (MVC)
 - **Security**: SHA-256 password hashing
 
 ## Installation
@@ -67,7 +67,7 @@ SmartGrocery is a comprehensive grocery inventory management system designed to 
 - Java Development Kit (JDK) 8 or higher
 - JavaFX SDK
 - MySQL Server
-- Eclipse IDE (recommended)
+- Eclipse IDE 
 
 ### Database Setup
 1. Create a MySQL database with the following schema:
@@ -219,22 +219,6 @@ SmartGrocery/
 - Maintain consistent code styling
 - Add appropriate error handling
 - Update documentation for new features
-
-## Authors
-
-- **Shritin Shetty** - Lead Developer
-- **Sarvesh Saranyan** - Co-Developer
-
-*ITMD-510 Final Project*
-
-## License
-
-This project is part of an academic assignment for ITMD-510.
-
-## Repository
-
-**Private Repository**: [https://github.com/Shritin15/Smart](https://github.com/Shritin15/Smart)
-
 ---
 
 *ITMD-510 Final Project*
