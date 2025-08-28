@@ -160,34 +160,8 @@ java --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml
 | expiry_date | DATE         | Item expiry date               |
 | added_by    | VARCHAR(50)  | Username of item creator       |
 
-## Project Structure
 
-```
-SmartGrocery/
-├── src/
-│   ├── model/
-│   │   ├── GroceryItems.java
-│   │   ├── User.java
-│   │   └── DBConnection.java
-│   ├── view/
-│   │   ├── LoginController.java
-│   │   ├── SignUpController.java
-│   │   ├── MainController.java
-│   │   └── UserManagementController.java
-│   ├── controller/
-│   │   └── [Controller classes]
-│   ├── utils/
-│   │   ├── PasswordHashingUtils.java
-│   │   ├── PasswordTest.java
-│   │   └── DBTest.java
-│   └── Main.java
-├── resources/
-│   ├── style.css
-│   └── [FXML files]
-└── README.md
-```
-
-## Features Showcase
+## Features 
 
 ### Security Features
 - **Password Hashing**: All passwords are stored using SHA-256 hashing
@@ -202,7 +176,7 @@ SmartGrocery/
 ### Extra Features
 - **Runnable JAR**: Pre-compiled executable for easy deployment
 - **Comprehensive Testing**: Database connection and password hashing tests
-- **Visual Feedback**: Color-coded status indicators and user notifications
+- **Visual Feedback**: Color coded status indicators and user notifications
 
 ## Contributing
 
@@ -212,7 +186,7 @@ SmartGrocery/
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-### Development Notes
+### Notes
 - Follow MVC architecture patterns
 - Maintain consistent code styling
 - Add appropriate error handling
