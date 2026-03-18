@@ -122,9 +122,6 @@ java --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml
 - **Username**: `shritin` | **Password**: `admin123`
 - **Username**: `sarvesh` | **Password**: `admin123`
 
-### Example User Credentials
-- **Username**: `arya` | **Password**: `arya123`
-
 ### Creating New Users
 1. Click "Sign Up" on the login screen
 2. Enter username, password, and confirm password
